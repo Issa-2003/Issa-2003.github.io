@@ -2,20 +2,25 @@
 <html lang="en">
 
 <head>
-    <!-- Style 1 is niet echt duidelijk -->
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Profile</title>
+    <meta name="description" content="My personal Website">
+
+    <script type="text/javascript">
+        function togglemenu(){
+           document.getElementById('sidebar').classList.toggle('active');
+       }
+   </script>
+
 </head>
 
 <body>
-    <!-- Symantische tag: header -->
-    <!-- Meer witruimte verbeterd leesbaarheid tussen je elementen, dit is optioneel maar ik ben dyslecties :P -->
     <div class="header">
-        <h1>My Personal Website</h1>
-        <p>Eerste school opdracht</p>
+        <h1>Issa's Website</h1>
+        <p>Mijn eerste school opdracht</p>
     </div>
     <ul class="navbar">
         <li><a href="index.html" class="active">Home</a></li>
@@ -26,13 +31,11 @@
     </ul>
     <div class="row">
         <div class="column">
-            <!-- Inline style ;( -->
             <img src="https://thumbs.dreamstime.com/b/monitor-closeup-function-source-code-abstract-background-desktop-pc-photo-web-site-codes-computer-mon-127601204.jpg"
                  alt="ICT" style="width:100%">
         </div>
 
         <div class="column">
-            <!-- Title property :: w3school image title -->
             <img src="https://www.vindsubsidies.nl/media/hg4jwoks/software-ict-1.jpg?mode=pad&width=610&rnd=132439658350770000"
                  alt="ICT" style="width:100%">
         </div>
@@ -59,7 +62,7 @@
         </ul>
     </div>
     <p>
-       Vorige week ben ik begonnen met de opleiding HBO-ICT.<br>
+       Dit jaar ben ik begonnen met de opleiding HBO-ICT.<br>
        Nadat ik klaar was met het MBO wou ik graag nog een HBO opleiding doen.<br>
        Ik heb had best wel wat moeite met het zoeken van de juiste opleiding, todat iemand mij introduceerde tot programmeren.<br>
        Hij maakt websites voor individuele klanten, maar ook voor bedrijven. Hierdoor ben ik zelf gaan kijken hoe dit in zijn werking gaat.<br>
@@ -69,7 +72,7 @@
        Wat ze allemaal vertelden op de open dag sprak mij zo erg aan dat ik mij zo gauw mogelijk ging inschrijven.<br>
     </p>
     <p>
-      Mijn motivatie komt dus door meerdere factoren. In het begin kwam het doordat ik gamen en omgaan leuk vond, dit veranderde in meer willen leren over programmeren.<br>
+      Mijn motivatie komt dus door meerdere factoren. In het begin kwam het doordat ik gamen leuk vond, dit veranderde in meer willen leren over programmeren.<br>
       Stukje bij beetje leer ik steeds meer over de mogelijkheden over wat allemaal mogelijk is. Apps, websites en programma's maken. Er is zoveel mogelijk.<br>
       Ik hoop van deze opleiding veel praktijk te leren, zodat ik kan laten zien wat ik heb geleerd. Niet dat ik alleen maar theorie heb geleerd.<br>
       Mijn motivatie op het moment is mijn vooruit zicht op de toekomst, wat ik allemaal ga leren hier op de opleiding en wat voor leuke projecten allemaal komen.<br>
@@ -84,7 +87,6 @@
     </ol>
     </p>
     <footer>
-        <!-- Gebruik - om je woorden te scheiden: second-navbar -->
         <ul class="second-navbar">
             <li><a href="profile.html">Home</a></li>
             <li><a href="profilepage.html">Profile Page</a></li>
@@ -92,9 +94,10 @@
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="blogpostfeed.html">Blog/Post Feed</a></li>
         </ul>
-        <!-- Meerdere tags op een enkele regel maakt het onoverzichtelijk, dit kan allemaal in 1 <p> -->
         <p>Author: <a href="oppe0021@hz.nl">oppe0021@hz.nl</a>, <a href="hz.nl">Hz.nl</a></p>
-        <img class="hz-logo" src="https://www.mimir.nu/wp-content/uploads/2021/05/logo-hz-200x200-1.png">
+        <a target="_blank" href="https://hz.nl/">
+            <img class="hz-logo" src="https://www.mimir.nu/wp-content/uploads/2021/05/logo-hz-200x200-1.png">
+        </a>
     </footer>
 </body>
 </html>
