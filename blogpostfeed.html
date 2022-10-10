@@ -1,72 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="utf-8">
-        <title>Blog/Post Feed</title>
-    </head>
-    <body>
-        <div class="header">
-            <h1>Blog-Post Feed</h1>
-        </div>
-        <ul class="navbar">
-            <li><a href="profile.html">Home</a></li>
-            <li><a href="profilepage.html">Profile Page</a></li>
-            <li><a href="dashboard.html">Dashboard</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="blogpostfeed.html" class="active">Blog/Post Feed</a></li>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>Blog/Post Feed</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Blog-Post Feed</h1>
+    </div>
+    <ul class="navbar">
+        <li><a href="profile.html">Home</a></li>
+        <li><a href="profilepage.html">Profile Page</a></li>
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="blogpostfeed.html" class="active">Blog/Post Feed</a></li>
+    </ul>
+
+    <div class="side-nav">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen"
+                    target="_blank">
+                    Course and Regulations
+                </a></li>
+            <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf"
+                    target="_blank">
+                    ICT Regulations
+            </li>
+            </a>
+            <li><a href="https://teams.microsoft.com/l/team/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/conversations?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c"
+                    target="_blank">
+                    Teams Environment
+                </a></li>
+            <li><a href="https://learn.hz.nl/my/" target="_blank">
+                    MyHZ study progress
+                </a></li>
+            <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">
+                    GitHub Environment
+                </a></li>
         </ul>
+    </div>
 
-        <div class="side-nav">
-            <h2>Menu</h2>
-            <ul>
-              <li><a href="https://hz.nl/over-de-hz/regelingen-documenten-1/onderwijs-en-examenregelingen" target="_blank"> 
-               Course and Regulations
-              </a></li>
-             <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2022-2023/IR-CER-HZ-B-HBO-ICT-full-time-2022-2023-DEF.pdf" target="_blank">
-               ICT Regulations
-             </li>
-              </a>
-              <li><a href="https://teams.microsoft.com/l/team/19%3a2e2afa0286b04932be16cb8ad2d9d2c0%40thread.skype/conversations?groupId=95bddebc-a340-4d88-81fc-b80e0bfc70c3&tenantId=4c16deb3-342d-4fca-bcd5-b1429308034c" target="_blank">
-               Teams Environment
-              </a></li>
-              <li><a href="https://learn.hz.nl/my/" target="_blank">
-               MyHZ study progress
-              </a></li>
-              <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">
-                GitHub Environment
-              </a></li>
-            </ul>
-        </div>
+    <h2>Discussion about the use of "section and article" elements</h2>
+    <p>Volgens verschillende websites en posts van mensen maakt het verschil niet heel erg uit.</p>
+    <p>Het is mogelijk om section te nesten in een article, maar omgekeerd kan ook.</p>
+    <p>Welke manier je dus gebruikt je doet het niet fout.</p>
+    <p>Als voorbeeld: stel je bent een blog post aan het schrijven, dan zou elke post een "article" zijn.</p>
+    <p>Nu kun je het scheiden in logical "sections" met ieder zijn eigen "h1" element and wat ze nog meer nodig hebben.
+    </p>
 
-        <h2>Discussion about the use of "section and article" elements</h2>
-          <p>Volgens verschillende websites en posts van mensen maakt het verschil niet heel erg uit.</p>
-          <p>Het is mogelijk om section te nesten in een article, maar omgekeerd kan ook.</p>
-          <p>Welke manier je dus gebruikt je doet het niet fout.</p>
-          <p>Als voorbeeld: stel je bent een blog post aan het schrijven, dan zou elke post een "article" zijn.</p>
-          <p>Nu kun je het scheiden in logical "sections" met ieder zijn eigen "h1" element and wat ze nog meer nodig hebben.</p>
+    <p>Bij het schrijven van een onderzoek, kun je het beste "sections" gebruiken om de verschillende content te
+        scheiden.</p>
+    <p>Maar hier ook weer kun je bijvoorbeeld binnen in je "section" een "article" maken.</p>
+    <article>
+        <h2>Study Choice</h2>
+        <a target="_blank" href="studychoice.html">
+            <img class="study-choice" img src="/img/study-choice-01.png">
+        </a>
+    </article>
+    <article>
+        <h2>Personal SWOT Analysis</h2>
+        <a target="_blank" href="swotanalysis.html">
+            <img class="swotanalysis" img src="/img/swot.png">
+        </a>
+    </article>
+    <article>
+        <h2>Programming Experience</h2>
+        <a target="_blank" href="programming.html">
+            <img class="programming" img src="/img/programming experience.jpg">
+        </a>
+    </article>
+    <article>
+        <h2>First Feedback</h2>
+        <a target="_blank" href="feedback.html">
+            <img class="feedback" img src="/img/feedback.jpg">
+        </a>
+    </article>
+    <article>
+        <h2>Profession</h2>
+        <a target="_blank" href="profession.html">
+            <img class="profession" img src="/img/profession.jfif">
+        </a>
+    </article>
+</body>
 
-          <p>Bij het schrijven van een onderzoek, kun je het beste "sections" gebruiken om de verschillende content te scheiden.</p>
-          <p>Maar hier ook weer kun je bijvoorbeeld binnen in je "section" een "article" maken.</p>
-        <article>
-            <h2>Study Choice</h2>
-            <p>Voor meer informatie hierover<a href="studychoice.html" target="_blank"> klik hier</a></p>
-        </article>
-        <article>
-            <h2>Personal SWOT Analysis</h2>
-            <p>Voor meer informatie hierover<a href="swotanalysis.html" target="_blank"> klik hier</a></p>
-        </article>
-        <article>
-            <h2>Programming Experience</h2>
-            <p>Voor meer informatie hierover<a href="programming.html" target="_blank"> klik hier</a></p>
-        </article>
-        <article>
-            <h2>First Feedback</h2>
-            <p>Voor meer informatie hierover<a href="feedback.html" target="_blank"> klik hier</a></p>
-        </article>
-        <article>
-            <h2>Profession</h2>
-            <p>Voor meer informatie hierover<a href="profession.html" target="_blank"> klik hier</a> </p>
-        </article>
-    </body>
 </html>
